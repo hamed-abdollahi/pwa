@@ -70,4 +70,8 @@
     .items .item img {
         width: 42%;
     }
+
+    .wrapper h1 {
+        font-size: 54px;
+    }
 }
