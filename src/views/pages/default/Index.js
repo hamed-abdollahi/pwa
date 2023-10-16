@@ -12,8 +12,8 @@ const Index = () => {
         { img: 'smarthospital', title: 'Hospital' },
         { img: 'smartschool', title: 'School' },
         { img: 'smartoffice', title: 'Office' },
-        { id: 1 },
-        { id: 1 },
+        { img: 'smartfactory', title: 'Factory' },
+        { img: 'smartsetting', title: 'Setting' },
 
     ])
 

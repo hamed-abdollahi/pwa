@@ -4,6 +4,8 @@ import smarthome from '../../src/assets/images/smart-home.png'
 import smarthospital from '../../src/assets/images/smart-hospital.png'
 import smartschool from '../../src/assets/images/smart-school.png'
 import smartoffice from '../../src/assets/images/smart-office.png'
+import smartfactory from '../../src/assets/images/smart-factory.png' 
+import smartsetting from '../../src/assets/images/smart-setting.png'
 import { useNavigate } from 'react-router-dom'
 
 const SmartItem = ({item}) => {
@@ -13,7 +15,9 @@ const SmartItem = ({item}) => {
        'smarthome' : smarthome,
        'smarthospital' : smarthospital,
        'smartschool': smartschool,
-       'smartoffice': smartoffice
+       'smartoffice': smartoffice,
+       'smartfactory': smartfactory,
+       'smartsetting': smartsetting
   })
 
   var navigate = useNavigate()
