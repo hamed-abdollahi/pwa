@@ -67,8 +67,9 @@
 
 @media only screen  and (max-width:548px){
     .items .item{
-        width: 38%;
+        width: 40%;
         height: 180px;
+        margin: 11px;
     }
     .items .item img {
         width: 42%;
@@ -80,5 +81,6 @@
 
     .wrapper .items{
         justify-content: center;
+        padding: 4px;
     }
 }
