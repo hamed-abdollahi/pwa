@@ -27,7 +27,7 @@
     flex-wrap: wrap;
     gap: 20px;
     justify-content: space-between;
-    padding: 43px;
+    padding: 26px;
     flex-direction: row-reverse;
 }
 
@@ -41,6 +41,7 @@
     align-items: center;
     justify-content: center;
     cursor: pointer;
+    margin: 18px;
 }
 
 .items .item img {
