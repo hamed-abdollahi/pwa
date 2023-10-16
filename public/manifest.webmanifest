@@ -10,11 +10,6 @@
   "description": "Next Generation SmartHome Solutions",
   "icons": [
       {
-          "src": "logo192.png",
-          "sizes": "192x",
-          "type": "image/png"
-      },
-      {
           "src": "logo512.png",
           "sizes": "512x",
           "type": "image/png"
