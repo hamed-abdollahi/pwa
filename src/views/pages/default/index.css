@@ -32,7 +32,7 @@
 
 .items .item {
     width: 209px;
-    height: 209px;
+    height: 180px;
     background-color: rgba(80, 124, 176, 1);
     display: flex;
     flex-direction: column;
@@ -51,7 +51,7 @@
 
 .items .item h2 {
     color: white;
-    padding: 16px;
+    padding: 13px;
 }
 
 
@@ -86,7 +86,7 @@
 
 @media only screen and (max-width:768px) {
     .items .item {
-        width: 41%;
+        width: 38%;
     }
 
     .items .item img {
@@ -99,7 +99,7 @@
 }
 
 
-@media only screen and (max-width:452px) {
+@media only screen and (max-width:400px) {
     .items .item {
         width: 96%;
     }
