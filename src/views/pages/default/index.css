@@ -26,7 +26,7 @@
     display: flex;
     flex-wrap: wrap;
     flex-direction: row-reverse;
-    padding: 26px;
+    padding: 10px;
     justify-content: center;
 }
 
@@ -96,10 +96,14 @@
     .wrapper .items {
         justify-content: center;
     }
+
+    .wrapper h1{
+        font-size: 46px;
+    }
 }
 
 
-@media only screen and (max-width:400px) {
+@media only screen and (max-width:344px) {
     .items .item {
         width: 96%;
     }
