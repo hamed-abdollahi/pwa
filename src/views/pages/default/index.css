@@ -111,5 +111,9 @@
     .wrapper .items {
         justify-content: center;
     }
+
+    .wrapper h1{
+        font-size: 46px;
+    }
 }
 
