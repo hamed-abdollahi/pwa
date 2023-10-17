@@ -1,4 +1,4 @@
-import React, { useState } from 'react'
+import React, { useState , useEffect } from 'react'
 import { Link } from 'react-router-dom'
 import './index.css'
 import SmartItem from 'src/components/SmartItem'
@@ -17,10 +17,17 @@ const Index = () => {
 
     ])
 
+    const [height, setHeight] = useState()
+
+    useEffect(() => {
+        var height = document.documentElement.offsetHeight;
+        setHeight(height)
+    }, [])
+    
+
     return (
         <div className='wrapper'>
             <div className='title'>
-
                 <img src={home} />
                 <h1>Smart Home</h1>
             </div>

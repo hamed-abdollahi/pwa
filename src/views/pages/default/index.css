@@ -1,6 +1,6 @@
 .wrapper {
-    
     background-color: #0f56aa;
+   
 }
 
 .wrapper h1 {
@@ -15,7 +15,7 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    padding-top: 20px;
+    padding-top: 57px;
 }
 
 .wrapper .title img {
@@ -25,15 +25,15 @@
 .wrapper .items {
     display: flex;
     flex-wrap: wrap;
-    
-    padding: 26px;
     flex-direction: row-reverse;
+    padding: 26px;
+    justify-content: center;
 }
 
-.items .item{
-    width: 300px;
-    height: 300px;
-    background-color: rgba(80,124,176,1) ;
+.items .item {
+    width: 209px;
+    height: 209px;
+    background-color: rgba(80, 124, 176, 1);
     display: flex;
     flex-direction: column;
     /* padding: 58px; */
@@ -46,43 +46,70 @@
 }
 
 .items .item img {
-    width: 42%;
+    width: fit-content;
 }
 
-.items .item h2{
+.items .item h2 {
     color: white;
     padding: 16px;
 }
 
-@media only screen  and (max-width:768px){
-    .items .item{
-        width: 43%;
-        height: 243px;
+
+
+@media only screen and (min-width:992px) and (max-width:1023px) {
+    .items .item {
+        width: 28%;
     }
+
     .items .item img {
-        width: 46%;
+        width: fit-content;
     }
-    .wrapper .items{
+
+    .wrapper .items {
         justify-content: center;
     }
 }
 
-@media only screen  and (max-width:548px){
-    .items .item{
-        width: 40%;
-        height: 180px;
-        margin: 11px;
+@media only screen and (min-width:767px) and (max-width:991px) {
+    .items .item {
+        width: 28%;
     }
+
     .items .item img {
-        width: 42%;
+        width: fit-content;
     }
 
-    .wrapper h1 {
-        font-size: 54px;
-    }
-
-    .wrapper .items{
+    .wrapper .items {
         justify-content: center;
-        padding: 4px;
     }
 }
+
+@media only screen and (max-width:768px) {
+    .items .item {
+        width: 41%;
+    }
+
+    .items .item img {
+        width: fit-content;
+    }
+
+    .wrapper .items {
+        justify-content: center;
+    }
+}
+
+
+@media only screen and (max-width:452px) {
+    .items .item {
+        width: 96%;
+    }
+
+    .items .item img {
+        width: fit-content;
+    }
+
+    .wrapper .items {
+        justify-content: center;
+    }
+}
+
